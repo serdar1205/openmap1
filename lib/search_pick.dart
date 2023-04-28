@@ -4,8 +4,6 @@ import 'package:open_street_map_search_and_pick/open_street_map_search_and_pick.
 class SearchPickOpenMap extends StatelessWidget {
   const SearchPickOpenMap({Key? key}) : super(key: key);
 
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

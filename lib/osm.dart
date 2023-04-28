@@ -9,8 +9,8 @@ class OSMap extends StatefulWidget {
 }
 
 class _OSMapState extends State<OSMap> {
+  ///
   final _mapController = MapController(initMapWithUserPosition: true);
-
   var markerMap = <String, String>{};
   List<String> getPostions = [];
 
@@ -34,7 +34,6 @@ class _OSMapState extends State<OSMap> {
           // add marker to map, for hold information of marker in case we want to use it
           var key = '${positon.latitude}_${positon.longitude}';
           markerMap[key] = markerMap.length.toString();
-
           getPostions.add(key);
         }
       });
