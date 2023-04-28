@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:openmap1/search_pick.dart';
 
 import 'osm.dart';
 
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Flutter Open street map',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
